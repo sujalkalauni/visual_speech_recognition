@@ -1,3 +1,18 @@
-venv/
-__pycache__/
+# Ignore the "heavy" computer parts
+*.exe
+*.o
+*.out
 
+# Ignore the big "brain" files (AI models)
+*.h5
+*.pth
+*.onnx
+
+# Ignore video and data folders
+datasets/
+videos/
+temp/
+
+# Ignore the "hidden" system files
+.DS_Store
+Thumbs.db
