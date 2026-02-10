@@ -8,6 +8,15 @@
 *.pth
 *.onnx
 
+
+
+
+
+
+
+
+
+
 # Ignore video and data folders
 datasets/
 videos/
