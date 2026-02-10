@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 
 from dataset import LipDataset
 from model.cnn_lstm import CNNLSTM
-
+#made bby sujal kalauni
 # ---- config ----
 NUM_CLASSES = 1 + 0  # currently only label 0 exists
 BATCH_SIZE = 1
