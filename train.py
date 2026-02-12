@@ -11,6 +11,8 @@ BATCH_SIZE = 1
 EPOCHS = 3
 LR = 1e-3
 
+
+
 # ---- dataset ----
 dataset = LipDataset(
     frames_root="data/mouth_frames",
