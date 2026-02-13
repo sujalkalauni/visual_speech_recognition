@@ -3,6 +3,7 @@ from model.cnn_lstm import CNNLSTM
 from dataset import LipDataset
 
 # load model
+#heyyyyyyyy
 model = CNNLSTM(num_classes=1)
 model.load_state_dict(torch.load("model.pth", map_location="cpu"))
 model.eval()
