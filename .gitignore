@@ -1,20 +1,57 @@
-# Ignore the "heavy" computer parts
-*.exe
-*.o
-*.out
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
 
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Ignore the big "brain" files (AI models)
+# ML model files
 *.h5
 *.pth
 *.onnx
+*.pkl
+*.pb
 
-# Ignore video and data folders
-datasets/
+# Data and video files
+data/raw/
 videos/
+datasets/
 temp/
 
-# Ignore the "hidden" system files
+# Logs and outputs
+logs/
+*.log
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
 .DS_Store
 Thumbs.db
